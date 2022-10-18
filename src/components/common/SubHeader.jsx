@@ -21,9 +21,9 @@ class SubHeader extends Component {
   render() {
     const { categories } = this.state;
     return (
-      <div className="sub-header row m-0 col-12">
+      <div className="sub-header row m-0 col-12 mb-2">
         {categories.map((category) => (
-          <div className="col-1 p-2" key={category.id}>
+          <div className="col-1 p-2 hover-border text-center pb-0" key={category.id}>
             <Link to={"/home/" + category.name}>{category.name}</Link>
           </div>
         ))}

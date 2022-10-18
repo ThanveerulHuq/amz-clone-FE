@@ -12,7 +12,7 @@ class Header extends Component {
           <div className="col-2">
             <img
               src="https://pngimg.com/uploads/amazon/amazon_PNG11.png"
-              className="logo"
+              className="logo hover-border"
               alt="amazon log"
             />
           </div>
@@ -28,15 +28,15 @@ class Header extends Component {
               </span>
             </div>
           </div>
-          <div className="col-3 d-flex justify-content-end header-signin p-2">
-            <div className="ms-5">
+          <div className="col-3 d-flex justify-content-end header-signin  p-2">
+            <div className="ms-5 hover-border">
               <p className="signin-hello">Hello Sign in</p>
               <h6 className="f-6">
                 Account & Lists <BsCaretDownFill />
               </h6>
             </div>
           </div>
-          <div className="col-1 badge p-3 d-flex justify-content-end">
+          <div className="col-1 badge p-3 d-flex justify-content-end hover-border">
             <BiCart className="cart-icon" />
           </div>
         </div>
